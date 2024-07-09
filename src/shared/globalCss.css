@@ -1,0 +1,10 @@
+.screen_container{
+    height: calc(100%-100px);
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    opacity: 1;
+}
+
+.flex{
+    display: flex;
+}

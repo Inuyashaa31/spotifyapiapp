@@ -1,0 +1,59 @@
+.queue_container{
+    left: 30%;
+    margin: 20px;
+    bottom: 105px;
+    height: 30%;
+    width: 30%;
+    opacity: 1;
+    border-radius: 20px;
+    background-color: rgb(44, 45, 46);
+    position: absolute;
+}
+
+.queue{
+    height: 85%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.upnext{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px ;
+    width: 100% ;
+}
+
+.queuelist{
+    height: 80%;
+    overflow-y: auto;
+    cursor: pointer;   
+
+}
+
+.queueitem{
+    width: 100%;
+    justify-content: space-around;
+    transition: all 0.2s ease-in-out;
+}
+.queueitem p{
+    margin: 5px;
+}
+.queueitem:hover{
+    transform: scale(0.95);
+}
+
+.trackname{
+    width: 75%;
+    margin-left: 20px;
+    /* text-align: center; */
+    text-overflow: ellipsis;
+    color: hsl(0, 0%, 67%);
+    z-index: 1;
+}
+
+.queuelist::-webkit-scrollbar {
+    display: none;
+  }

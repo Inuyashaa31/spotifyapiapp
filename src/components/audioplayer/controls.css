@@ -1,0 +1,36 @@
+.controls-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .action-btn {
+    margin-bottom: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .action-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .play-pause-btn {
+    margin-bottom: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  
+  .play-pause-btn:hover {
+    transform: scale(1.1);
+  }

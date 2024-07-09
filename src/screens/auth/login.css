@@ -1,0 +1,33 @@
+.login_page{
+    background-color: rgb(27, 26, 26);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.logo{
+    width: 30%;
+}
+
+.login_button{
+    position: relative;
+    justify-content: center;
+
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: rgb(249, 255, 255);
+    border-radius: 20px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20%;
+}
+
+a{
+    text-decoration: nonep;
+}

@@ -1,0 +1,35 @@
+/* .left-player-body{
+    width: 70%;
+    margin-right: 2%;
+    height: 100%;
+} */
+
+.right-player-body{
+    width: 30%;
+    height: 100%;
+}
+.song_card{
+    width: 30%;
+    height: calc(100%-100px);
+    
+}
+.queue_card{
+    width: 30%;
+    height: calc(100%-100px);
+    
+}
+.credits{
+    position: absolute;
+    left: 63%;
+    top: 76%;
+    width: 35%;
+    justify-content: center;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(158, 255, 158);
+    border-radius: 10px;
+    background-color: rgb(44, 45, 46);
+
+}

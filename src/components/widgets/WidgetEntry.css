@@ -1,0 +1,32 @@
+.entry-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    /* margin-right: 10px; */
+  }
+
+
+  .entry-body  {
+    /* width: 1/00%; */
+    /* align-items: center; */
+    /* margin-top: 10%; */
+    flex-direction: row;
+    color: white;
+    padding : 5px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .entry-right-body{
+    margin-left: 10px;
+
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+}
+
+.entry-title{
+    margin-left: 10px;
+    
+
+}
+
